@@ -1,0 +1,7 @@
+{
+  "01_street": ["02_street"],
+  "02_street": ["01_street", "01_floor_1"],
+  "01_floor_1": ["02_street", "02_floor_1", "01_floor_0"],
+  "01_floor_0": ["01_floor_1"],
+  "02_floor_1": ["01_floor_1"]
+}
