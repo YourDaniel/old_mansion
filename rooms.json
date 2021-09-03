@@ -1,5 +1,11 @@
 {
-  "01_street": ["02_street"],
+  "01_street": {
+    "exits":  ["02_street"],
+    "name": "Inside a car",
+    "description": "You are inside your car in the driver seat. The night is dark but you see a metal fence caught in your headlights.",
+    "search_light": "You can see a lighter and a couple of coins on the shelf. You also notice a pack of cigarettes on a front seat.",
+    "search_dark": "You can't see much inside a car since the lights are off. You see a couple of lights flickering on a dashboard. "
+  },
   "02_street": ["01_street", "01_floor_1"],
   "01_floor_1": ["02_street", "02_floor_1", "01_floor_0"],
   "01_floor_0": ["01_floor_1"],
