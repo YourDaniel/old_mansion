@@ -1,7 +1,35 @@
 {
-  "01_street": ["02_street"],
-  "02_street": ["01_street", "01_floor_1"],
-  "01_floor_1": ["02_street", "02_floor_1", "01_floor_0"],
-  "01_floor_0": ["01_floor_1"],
-  "02_floor_1": ["01_floor_1"]
+  "01_street": {
+    "description": "This is a street",
+    "exits": [
+      "02_street"
+    ]
+  },
+  "02_street": {
+    "description": "Hello",
+    "exits": [
+      "01_street",
+      "01_floor_1"
+    ]
+  },
+  "01_floor_1": {
+    "description": "Hello",
+    "exits": [
+      "02_street",
+      "02_floor_1",
+      "01_floor_0"
+    ]
+  },
+  "01_floor_0": {
+    "description": "Hello",
+    "exits": [
+      "01_floor_1"
+    ]
+  },
+  "02_floor_1": {
+    "description": "Hello",
+    "exits": [
+      "01_floor_1"
+    ]
+  }
 }
