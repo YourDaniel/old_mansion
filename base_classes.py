@@ -3,6 +3,7 @@ class Room:
     def __init__(self, name, exits):
         self.name = name
         self.exits = exits
+        self.closed = False
 
 
 class Player:
